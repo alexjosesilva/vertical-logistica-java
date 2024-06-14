@@ -26,7 +26,7 @@ Este projeto é uma API REST desenvolvida em Java 21 com Spring Boot para proces
 - **controller**: Contém os controladores REST.
 - **service**: Contém a lógica de negócios.
 - **model**: Contém as classes de modelo (entidades).
-- **repository**: Contém as interfaces de repositório.
+- **repository**: Contém as interfaces de repositório.(opcional).
 - **exception**: Contém as classes de exceção personalizada.
 
 ```
