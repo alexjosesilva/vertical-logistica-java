@@ -1,6 +1,5 @@
 ﻿[![Latest Version](https://img.shields.io/github/v/release/alexjosesilva/vertical-logistica-java?include_prereleases)](https://github.com/alexjosesilva/vertical-logistica-java/releases/tag/1.5)
-[![License](https://img.shields.io/github/license/alexjosesilva/vertical-logistica-java)]([https://github.com/alexjosesilva/vertical-logistica-java/blob/master/LICENSE](https://github.com/alexjosesilva/vertical-logistica-java/blob/master/LICENSE))
-
+![Licença MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 # Vertical Logística
 
