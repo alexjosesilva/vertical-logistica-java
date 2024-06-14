@@ -1,5 +1,6 @@
 ﻿[![Latest Version](https://img.shields.io/github/v/release/alexjosesilva/vertical-logistica-java?include_prereleases)](https://github.com/alexjosesilva/vertical-logistica-java/releases/tag/1.0)
 [![License](https://img.shields.io/github/license/alexjosesilva/vertical-logistica-java)]([https://github.com/seu-usuario/seu-repositorio/blob/master/LICENSE](https://github.com/alexjosesilva/vertical-logistica-java/blob/master/LICENSE))
+[![codecov](https://codecov.io/gh/alexjosesilva/vertical-logistica-java/graph/badge.svg?token=GUWHI4VKML)](https://codecov.io/gh/alexjosesilva/vertical-logistica-java)
 
 # Vertical Logística
 
@@ -10,6 +11,8 @@ Este projeto é uma API REST desenvolvida em Java 21 com Spring Boot para proces
 - Java 21
 - Spring Boot
 - Maven
+- JaCoCo para cobertura de testes
+- Codecov para integração contínua de cobertura de testes
 
 ## Como Executar
 
