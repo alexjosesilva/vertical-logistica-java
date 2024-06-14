@@ -22,7 +22,7 @@ public class OrderServiceTest {
     }
 
     @Test
-    public void testProcessFileSuccess() throws Exception {
+    public void testProcessFileSuccess()  {
 
         String content = """
                 0000000070                              Palmer Prosacco00000007530000000003     1836.7420210308
