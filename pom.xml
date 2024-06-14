@@ -82,9 +82,11 @@
                         <configuration>
                             <dataFile>target/jacoco.exec</dataFile>
                             <outputDirectory>target/site/jacoco/jacoco-xml</outputDirectory>
-                            <formats>
+                            <report>
+                                <formats>
                                     <format>xml</format>
                                 </formats>
+                            </report>
                             </configuration>
                     </execution>
                 </executions>
