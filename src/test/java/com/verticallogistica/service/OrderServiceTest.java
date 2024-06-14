@@ -23,26 +23,27 @@ public class OrderServiceTest {
 
     @Test
     public void testProcessFileSuccess() throws Exception {
-        String content = "0000000001                                      Zarelli00000001230000000111512.2420211201\n" +
-                "0000000001                                      Zarelli00000001230000000122512.2420211201\n" +
-                "0000000002                                     Medeiros00000123450000000111256.2420201201\n" +
-                "0000000002                                     Medeiros0000012345000000012256.2420201201";
-        MockMultipartFile file = new MockMultipartFile("file", "orders.txt", "text/plain", content.getBytes());
+
+        String content = """
+                0000000070                              Palmer Prosacco00000007530000000003     1836.7420210308
+                0000000075                                  Bobbie Batz00000007980000000002     1578.5720211116
+                0000000049                               Ken Wintheiser00000005230000000003      586.7420210903
+                """;
+
+        MockMultipartFile file = new MockMultipartFile("file", "test-files/orders.txt", "text/plain", content.getBytes());
 
         List<User> users = orderService.processFile(file);
 
-        assertEquals(2, users.size());
-        assertEquals("Zarelli", users.get(0).getName());
-        assertEquals(2, users.get(0).getOrders().size());
-        assertEquals("Medeiros", users.get(1).getName());
+        assertEquals(3, users.size());
+        assertEquals("Ken Wintheiser", users.get(0).getName());
+        assertEquals(1, users.get(0).getOrders().size());
+        assertEquals("Palmer Prosacco", users.get(1).getName());
         assertEquals(1, users.get(1).getOrders().size());
     }
 
     @Test
     public void testProcessFileInvalidFormat() {
-        String content = "Invalid Content";
-        MockMultipartFile file = new MockMultipartFile("file", "orders.txt", "text/plain", content.getBytes());
-
+        MockMultipartFile file = new MockMultipartFile("file", "test-files/invalid.txt", "text/plain", "Invalid Content".getBytes());
         assertThrows(CustomException.class, () -> orderService.processFile(file));
     }
 }
