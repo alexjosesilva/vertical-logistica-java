@@ -5,6 +5,9 @@
 ![Último commit](https://img.shields.io/github/last-commit/alexjosesilva/vertical-logistica-java)
 
 
+![Docker Image Build](https://github.com/alexjosesilva/vertical-logistica-java/actions/workflows/docker-image.yml)
+
+
 # Vertical Logística
 
 Este projeto é uma API REST desenvolvida em Java 21 com Spring Boot para processar arquivos de pedidos de um sistema legado, transformando-os em JSON normalizado. O objetivo é integrar dois sistemas, recebendo um arquivo via API REST, processando-o e retornando os dados em um formato estruturado.
