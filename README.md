@@ -17,6 +17,7 @@ Este projeto é uma API REST desenvolvida em Java 21 com Spring Boot para proces
 - Maven
 - JaCoCo para cobertura de testes
 - Codecov para integração contínua de cobertura de testes
+- Docker
 
 ## Como Executar
 
