@@ -3,9 +3,7 @@
 [![codecov](https://codecov.io/gh/alexjosesilva/vertical-logistica-java/graph/badge.svg?token=GUWHI4VKML)](https://codecov.io/gh/alexjosesilva/vertical-logistica-java)
 ![Contribuidores](https://img.shields.io/github/contributors/alexjosesilva/vertical-logistica-java)
 ![Último commit](https://img.shields.io/github/last-commit/alexjosesilva/vertical-logistica-java)
-
-
-![Docker Image Build](https://github.com/alexjosesilva/vertical-logistica-java/actions/workflows/docker-image.yml)
+![Docker Image Build](https://github.com/alexjosesilva/vertical-logistica-java/actions/workflows/docker-image.yml/badge.svg)
 
 
 # Vertical Logística
