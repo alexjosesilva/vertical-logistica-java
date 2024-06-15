@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Logistica</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vertical Logistica</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#upload">Upload</a></li>
+                <li><a href="#results">Resultados</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Bem-vindo à Vertical Logistica</h2>
+        <p>Gerenciamento de logística eficiente e simplificado.</p>
+    </section>
+    
+    <section id="upload">
+        <h2>Upload de Arquivo</h2>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="file" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <section id="results">
+        <h2>Resultados</h2>
+        <div id="result-content">
+            <!-- Conteúdo dos resultados será carregado aqui -->
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Vertical Logistica. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
